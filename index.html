@@ -12,7 +12,18 @@
 </head>
 
 <body>
-    <nav>
+    <header class="header">
+        <nav class="navbar">
+            <div class="containerNav">
+                <div class="navbar-brand"></div>
+                <div class="navbar-menu" id="navMenu">
+                    <div class="navbar-start"></div>
+                    <div class="navbar-end"></div>
+                </div>
+            </div>
+
+
+        </nav>
         <!-----------------------------------
             Nav-Bar: 
 
@@ -22,10 +33,12 @@
             *Que se despliegue por toda la pag.
             *Aplicar Hover Aca uno //  SobreMi *Proyectos *Skills 
         -------------------------------------->
-        <h1>Bienvenidos a mi Portafolio</h1>
-    </nav>
-    <section>
-        <!-----------------------------------
+
+    </header>
+    <main class="home">
+        <div class="container">
+            <section class="container__animacion">
+                <!-----------------------------------
             Utilizar CSS y JavaScript a otro nivel.
 
             Realizar varios eventos que involucren el clima.
@@ -36,9 +49,9 @@
             *Pre-lluvia (O que haya parado la lluvia)
             *Lluvioso con truenos
         ------------------------------------------------------------------------------------------->
-    </section>
-    <main>
-        <!-------------------------------------------
+            </section>
+            <section class="container__content">
+                <!-------------------------------------------
             Desplegar cada uno de los Items del NavBar
 
             *SobreMi
@@ -52,8 +65,10 @@
             *Skills 
             -Demostrar todas mis Skills, Habilidades, y condiciones que me ayudan a diario para demostrar mis Skills
             -------------------------------------------------------------------------------------------------------------->
+            </section>
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
         <!--------------
             /Contactos
             /Sitios Web

@@ -10,7 +10,9 @@ Implementacion: Un Nav con estilo:
 
 *transparente con bordeSombreado.
 *Que se despliegue por toda la pag.
-*SobreMi *Proyectos *Skills 
+
+Items a ubicar en el NavBar:
+// *SobreMi *Proyectos *Skills //
 --------------------------------
 Main
 
