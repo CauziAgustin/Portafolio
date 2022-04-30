@@ -25,6 +25,12 @@ Dia:
 *Soleado
 *Pre-lluvia (O que haya parado la lluvia)
 *Lluvioso con truenos
+
+// Empieza de noche una cabaña lloviendo, de repente caen truenos (Sonido ambiental de lluvia)
+// de repente cambia a despejado con efecto de que esta mojado (Sonido ambiental de lluvia despejada)
+// Sol con (Sonido ambiental de Sol)
+// Despues empieza a llover denuevo
+// Se repite el Ciclo
 --------------------------------
 Body
 
